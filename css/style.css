@@ -1,0 +1,90 @@
+@font-face {
+    font-family: mario;
+    src: url('../fonts/mario-world.ttf');
+}
+
+body {
+    font-family: 'mario';
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url(../img/nubes3.png);
+    color: #fff000;
+    margin: 80px auto 48px auto;
+    max-width: 1120px;
+    cursor: url(../img/cursor.png), auto;
+}
+img{
+    border-radius: 15px;
+}
+header{
+    
+}
+
+nav {
+    
+    padding: 20px 40px 20px 40px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    color: #fff000;
+    text-decoration: underline;
+   
+}
+
+
+section{
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    
+    
+}
+
+blockquote{
+   font-size: 32px; 
+   line-height: 1.2;
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+
+.dm-img-avatar{
+    border: 8px solid black;
+    margin: auto;
+    display: block;
+}
+
+
+.dm-desc{
+    background-color:#763900; 
+    border: 8px solid black;
+}
+.dm-quote { 
+    background-color:#80B850; 
+    border: 8px solid black;
+    color: black;
+}
+.dm-quote-author{
+    font-size: 24px;
+    padding-top: 50px;
+    
+}
+.dm-quote-author img{
+     height: 120px;
+}
+
+
+
+
+
+
