@@ -13,15 +13,8 @@ body {
     max-width: 1120px;
     cursor: url(../img/cursor.png), auto;
 }
-img{
-    border-radius: 15px;
-}
-header{
-    
-}
 
 nav {
-    
     padding: 20px 40px 20px 40px;
 }
 
@@ -36,7 +29,6 @@ nav a:hover{
     text-decoration: underline;
    
 }
-
 
 section{
     padding: 40px;
@@ -58,11 +50,16 @@ blockquote{
 
 }
 
-.dm-img-avatar{
-    border: 8px solid black;
-    margin: auto;
-    display: block;
+/* clases */
+
+.m64{
+        width: 100%;
+        border: 8px solid black;
+        margin: auto;
+        display: block;
+        border-radius: 15px;
 }
+
 
 
 .dm-desc{
@@ -79,12 +76,19 @@ blockquote{
     padding-top: 50px;
     
 }
+
 .dm-quote-author img{
-     height: 120px;
+    height: 120px;
 }
 
+/*responsive */
 
+@media (max-width: 600px) {
+    h1{
+      font-size: 25px;
+    }
 
-
-
-
+    .dm-quote-author img{
+        height: 80px;
+   }
+  }
