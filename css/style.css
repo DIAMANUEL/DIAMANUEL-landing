@@ -1,3 +1,33 @@
+/*
+    __________________________
+   |OFFo oON                  |
+   | .----------------------. |
+   | |  .----------------.  | |
+   | |  |     EASTER     |  | |
+   | |))|      EGG       |  | |
+   | |  |                |  | |
+   | |  |                |  | |
+   | |  |    DIAMANUEL   |  | |
+   | |  |                |  | |
+   | |  |                |  | |
+   | |  '----------------'  | |
+   | |__GAME BOY____________/ |
+   |         _________        |
+   |    .  (Noentiendo)       |
+   |  _|-|_ """"""""""   .-.  |
+   |-[_   _]-       .-. (   ) |
+   |   |_|         (   ) '-'  |
+   |    '           '-'   A   |
+   |                 B        |
+   |          ___   ___       |
+   |         (___) (___)  ,., |
+   |        select start ;:;: |
+   |                    ,;:;' /
+   |                   ,:;:'.'
+   '-----------------------`
+
+*/
+
 @font-face {
     font-family: mario;
     src: url('../fonts/mario-world.ttf');
@@ -83,11 +113,20 @@ blockquote{
 
 /*responsive */
 
-@media (max-width: 600px) {
+@media (max-width: 828px) {
     h1{
       font-size: 25px;
     }
 
+    nav{
+        text-align: center;
+    }
+
+   .logo{
+       display: block;
+       margin: auto;
+   }
+   
     .dm-quote-author img{
         height: 80px;
    }
