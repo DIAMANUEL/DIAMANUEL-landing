@@ -90,8 +90,6 @@ blockquote{
         border-radius: 15px;
 }
 
-
-
 .dm-desc{
     background-color:#763900; 
     border: 8px solid black;
@@ -110,7 +108,10 @@ blockquote{
 .dm-quote-author img{
     height: 120px;
 }
-
+.dm-copyright{
+    color: black;
+    text-align: center;
+}
 /*responsive */
 
 @media (max-width: 828px) {
@@ -130,4 +131,7 @@ blockquote{
     .dm-quote-author img{
         height: 80px;
    }
+   .dm-copyright{
+   font-size: 15px;
+}
   }
